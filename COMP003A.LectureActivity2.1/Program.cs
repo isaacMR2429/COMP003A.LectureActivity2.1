@@ -19,6 +19,12 @@
             Console.WriteLine("\nUsing concatenation");
             Console.WriteLine("Sum: " + sum);
             Console.WriteLine("Average: " + average);
+
+            Console.WriteLine("\nUsing interpolation");
+            Console.WriteLine($"Sum: {sum}");
+            Console.WriteLine($"Average: {average}");
+
+
         }
     }
 }
