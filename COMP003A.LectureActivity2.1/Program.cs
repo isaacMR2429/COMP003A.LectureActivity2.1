@@ -16,7 +16,9 @@
             double sum = num1 + num2;
             double average = (num1 + num2) / 2;
 
-
+            Console.WriteLine("\nUsing concatenation");
+            Console.WriteLine("Sum: " + sum);
+            Console.WriteLine("Average: " + average);
         }
     }
 }
