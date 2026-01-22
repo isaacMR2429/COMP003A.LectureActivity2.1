@@ -4,8 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter first number: ");
-            Console.WriteLine("Enter second number: ");
+            Console.Write("Enter first number: ");
+            string input1 = Console.ReadLine();
+
+            Console.Write("Enter second number: ");
+            string input2 = Console.ReadLine();
+
+            double num1 = double.Parse(input1);
+            double num2 = double.Parse(input2);
         }
     }
 }
