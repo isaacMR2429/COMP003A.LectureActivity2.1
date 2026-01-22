@@ -24,7 +24,9 @@
             Console.WriteLine($"Sum: {sum}");
             Console.WriteLine($"Average: {average}");
 
-
+            Console.WriteLine("\nComparisons");
+            Console.WriteLine($"{num1} > {num2}: {num1 > num2}");
+            Console.WriteLine($"{num1} == {num2}: {num1 == num2}");
         }
     }
 }
